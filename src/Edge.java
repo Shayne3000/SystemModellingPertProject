@@ -6,9 +6,9 @@ public class Edge
 {
 	private PERT within;
 	
-	private Task Source;
+	public Task Source;
 	
-	private Task Destination;
+	public Task Destination;
 	
 	public void IsinCriticalPath( )
 	{
